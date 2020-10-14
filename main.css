@@ -1,0 +1,4 @@
+button { font-family:inherit; padding:0.7em; margin:1px 2px 2px 1px; position:relative; border:2px solid grey; border-radius:999px; overflow:hidden; cursor:pointer; outline:0; color:#FFFFFF; background-color:lightseagreen; }
+button:after { content:""; position:absolute; width:100%; height:100%; top:0; left:0; pointer-events:none; background-image:radial-gradient(circle closest-side at center, rgba(255, 255, 255, 0.67) 33%, transparent); transform:scale(10, 10); opacity:0; transition:transform 1s, opacity 0.5s; }
+button:active { transform:translate(1px, 1px); }
+button:active:after { transform:scale(0, 0); opacity:0.67; transition:0s; transform: }
